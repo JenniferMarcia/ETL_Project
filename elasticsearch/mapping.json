@@ -1,0 +1,17 @@
+{
+  "settings": {
+    "number_of_shards": 1,
+    "number_of_replicas": 0
+  },
+  "mappings": {
+    "properties": {
+      "city": { "type": "keyword" },
+      "time": { "type": "date" },
+      "temperature_2m": { "type": "float" },
+      "relative_humidity_2m": { "type": "float" },
+      "precipitation": { "type": "float" },
+      "wind_speed_10m": { "type": "float" },
+      "feels_like_approx": { "type": "float" }
+    }
+  }
+}
