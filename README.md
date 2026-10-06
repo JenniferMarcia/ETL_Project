@@ -130,10 +130,11 @@ Le dashboard Kibana regroupe quatre visualisations (*Lens*) :
 3. Précipitations par heure et zone géographique.
 4. Évolution de l'humidité relative.
 
-### Capture d'écran du Dashboard Kibana :
+### Capture d'écran du Dashboard Kibana  et du DAG Airflow:
 
 ![Dashboard Kibana](./assets/Dashboard-kibana.png)
+![Airlfow DaG](./assets/DAG.png)
 
 ## Démonstration
 
-Le projet intègre un mécanisme de **retries** en cas d'échec sur les tâches, des logs détaillés accessibles depuis l'interface Airflow, et l'utilisation de **XComs** pour le passage de métadonnées entre les scripts[cite: 5]. L'ensemble est entièrement reproductible en suivant les instructions d'installation Docker ci-dessus
+Le projet intègre un mécanisme de **retries** en cas d'échec sur les tâches, des logs détaillés accessibles depuis l'interface Airflow, et l'utilisation de **XComs** pour le passage de métadonnées entre les scripts. L'ensemble est entièrement reproductible en suivant les instructions d'installation Docker ci-dessus
