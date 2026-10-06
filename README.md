@@ -133,7 +133,7 @@ Le dashboard Kibana regroupe quatre visualisations (*Lens*) :
 ### Capture d'écran du Dashboard Kibana  et du DAG Airflow:
 
 ![Dashboard Kibana](./assets/Dashboard-kibana.png)
-![Airlfow DaG](./assets/DAG.png)
+![Airlfow DaG](./assets/Dag.png)
 
 ## Démonstration
 
